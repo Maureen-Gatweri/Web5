@@ -1,8 +1,14 @@
 nav{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    
-    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+}
+.bbt3{
+    text-align: center;
+}
+.button{
+    color: black;
+    background-color: blue;
+    padding: 4px;
 }
 button{
     color: blue;
@@ -157,7 +163,9 @@ input{
 .bungalow{
     width: 100%;
 }
-
+.dream{
+    text-align: center;
+}
 
 
 
