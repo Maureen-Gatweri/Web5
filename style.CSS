@@ -1,0 +1,579 @@
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    
+    justify-content: space-between;
+}
+button{
+    color: blue;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.agents{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.house2{
+    width: 90px;
+    height: 80px;
+
+}
+.arrow{
+    width: 0.8%;
+}
+.houses{
+    display: flex;
+    gap: 40px;
+}
+.money{
+    color: blue;
+    font-size: 30px;
+}
+.stars{
+    width: 5px;
+}
+.heading{
+    color: rgb(27, 27, 163);
+}
+.info{
+   display: flex;
+   gap: 5px;
+}
+.icon2{
+    justify-content: center;
+    align-self: center;
+
+}
+.app{
+    align-items: start;
+    color: rgb(86, 86, 207);
+}
+.advert{
+    display: flex;
+    gap: 10px;
+}
+
+.text{
+    text-align: justify;
+    justify-content: center;
+}
+.ratings{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.nums{
+    text-decoration: black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    gap: 5px;
+    
+}
+.comment{
+    color: blue;
+}
+.executive{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+.rev{
+    border: 20px;
+    margin-right: 40px;
+   
+}
+.conclude{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.foot{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+button{
+    padding: 8px;
+    border-radius: 5%;
+    padding-left: 2%;
+    
+}
+input{
+    border-radius: 5px;
+    box-shadow: none;
+}
+.herotext{
+    font-size: 30px;
+}
+.heading{
+    color: blue;
+}
+.star{
+    color: green;
+    background-color: green;
+    
+}
+.btn1{
+    padding: 9px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+    
+
+}
+.palm{
+    display: flex;
+    
+}
+.bb{
+    padding: 25px;
+}
+
+    
+   
+.nav2{
+    gap: 0.5%;
+    text-align: center;
+    margin-left: 30%;
+    
+    
+}
+.hoo{
+    margin-left: 100px;
+}
+.bungalow{
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+
+
+
+
+    .topnav{
+        display: none;
+    }
+    .topnav a{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon{
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a.hover{
+        background-color: #add;
+        color: black;
+    }
+    .active{
+        background-color: blue;
+        color: white;
+    } 
+
+
+
+    nav{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        
+        justify-content: space-between;
+    }
+    button{
+        color: blue;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .agents{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+        width: 50%;
+    }
+    .house2{
+        width: 80px;
+        height: 80px;
+    
+    }
+    .arrow{
+        width: 0.8%;
+    }
+    .hee{
+        font-size: 12px;
+    }
+    .houses{
+        display: flex;
+        gap: 40px;
+        object-fit: cover;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    .money{
+        color: blue;
+        font-size: 30px;
+    }
+    .stars{
+        width: 5px;
+    }
+    .heading{
+        color: rgb(27, 27, 163);
+        font-size: 15px;
+    }
+    .info{
+       display: flex;
+       gap: 5px;
+       display: grid;
+       grid-template-columns: auto;
+    }
+    .icon2{
+        justify-content: center;
+        align-self: center;
+    
+    }
+    .app{
+        align-items: start;
+        color: rgb(86, 86, 207);
+    }
+    .advert{
+        display: flex;
+        gap: 10px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .text{
+        text-align: justify;
+        justify-content: center;
+    }
+    .ratings{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        
+    }
+    .nums{
+        text-decoration: black;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .comment{
+        color: blue;
+    }
+    .executive{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .rev{
+        border: 20px;
+       
+    }
+    .conclude{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-columns: auto auto;
+    }
+    button{
+        padding: 8px;
+        border-radius: 12%;
+        padding-left: 2%;
+        
+    }
+    input{
+        border-radius: 5px;
+        box-shadow: none;
+    
+}
+.hoouse{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.pink{
+    object-fit: cover;
+    width: 250px;
+
+
+}
+.bungalow{
+    width: 230px;
+}
+.posh{
+    width: 200px;
+}
+.paragraph{
+    font-size: 14px;
+    text-align: left;
+}
+.comm{
+    width: 210px;
+    height: 340px;
+}
+.hero{
+    font-size: 7px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: l;
+
+}
+.btn1{
+    width: 50%;
+}
+.nav2{
+    display: grid;
+    grid-template-columns: auto;
+}
+.one{
+    font-size: small;
+}
+.text{
+    font-size: x-small;
+}
+
+.two{
+    font-size: large;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+
+
+
+    nav{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    button{
+        color: blue;
+        justify-content: center;
+        padding: 5px;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .agents{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+        width: 75%;
+    }
+    .house2{
+        width: 80px;
+        height: 80px;
+    
+    }
+    .arrow{
+        width: 0.8%;
+    }
+    .houses{
+        display: flex;
+        gap: 40px;
+        object-fit: cover;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    .money{
+        color: blue;
+        font-size: 30px;
+    }
+    .stars{
+        width: 5px;
+    }
+    .heading{
+        color: rgb(27, 27, 163);
+    }
+    .info{
+       display: flex;
+       gap: 5px;
+       display: grid;
+       grid-template-columns: auto;
+    }
+    .icon2{
+        justify-content: center;
+        align-self: center;
+    
+    }
+    .app{
+        align-items: start;
+        color: rgb(86, 86, 207);
+    }
+    .advert{
+        display: flex;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .text{
+        text-align: justify;
+        justify-content: center;
+    }
+    .ratings{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        gap: 1%;
+        
+    }
+    .nums{
+        text-decoration: black;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .comment{
+        color: blue;
+    }
+    .executive{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: auto;
+        width: 162%;
+    }
+    .rev{
+        border: 20px;
+       
+    }
+    .conclude{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-columns: auto auto;
+    }
+    button{
+        padding: 8px;
+        border-radius: 12%;
+        padding-left: 2%;
+        
+    }
+    input{
+        border-radius: 5px;
+        box-shadow: none;
+    
+}
+.hoouse{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.pink{
+    object-fit: cover;
+    width: 250px;
+
+
+}
+.bungalow{
+    width: 230px;
+}
+.posh{
+    width: 200px;
+    display: grid;
+    grid-template-r: auto auto ;
+}
+.paragraph{
+    font-size: 14px;
+    text-align: left;
+}
+.comm{
+    width: 210px;
+    height: 340px;
+}
+.hero{
+    font-size: 7px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: l;
+
+}
+.btn1{
+    width: 50%;
+}
+.nav2{
+    display: grid;
+    grid-template-columns: auto;
+}
+.one{
+    font-size: small;
+}
+.text{
+    font-size: x-small;
+}
+
+.two{
+    font-size: large;
+}
+.ag{
+    width: 110%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
