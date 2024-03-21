@@ -1,14 +1,8 @@
 nav{
-    text-align: center;
-    gap: 50px;
-}
-.bbt3{
-    text-align: center;
-}
-.button{
-    color: black;
-    background-color: blue;
-    padding: 4px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    
+    justify-content: space-between;
 }
 button{
     color: blue;
@@ -163,9 +157,7 @@ input{
 .bungalow{
     width: 100%;
 }
-.dream{
-    text-align: center;
-}
+
 
 
 
@@ -177,39 +169,67 @@ input{
 
 
 
-    .topnav{
-        display: none;
-    }
-    .topnav a{
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-    .topnav a.icon{
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav a.hover{
-        background-color: #add;
-        color: black;
-    }
-    .active{
-        background-color: blue;
-        color: white;
-    } 
+
+
+
+
+
+
+
+
+
+.topnav{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon{
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a.hover{
+    background-color: #add;
+    color: black;
+}
+.active{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
     nav{
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto;
-        
-        justify-content: space-between;
+       
     }
     button{
         color: blue;
@@ -310,6 +330,8 @@ input{
     }
     .rev{
         border: 20px;
+        font-size: 10px;
+        margin-right: 50%;
        
     }
     .conclude{
@@ -354,6 +376,7 @@ input{
 .paragraph{
     font-size: 14px;
     text-align: left;
+    font-size: smaller;
 }
 .comm{
     width: 210px;
@@ -383,6 +406,9 @@ input{
 .two{
     font-size: large;
 }
+.cl{
+    font-size: small;
+}
 
 }
 
@@ -392,11 +418,11 @@ input{
 
     nav{
         display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: auto;
         
         justify-content: space-between;
         display: grid;
-        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-columns:  auto;
     }
     button{
         color: blue;
@@ -462,7 +488,7 @@ input{
         display: flex;
         gap: 10px;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     
     .text{
@@ -476,6 +502,10 @@ input{
         grid-template-rows: auto auto auto auto;
         gap: 1%;
         
+    }
+    .font{
+        font-size: larger;
+        margin-right: 40px;
     }
     .nums{
         text-decoration: black;
@@ -526,9 +556,13 @@ input{
 }
 .pink{
     object-fit: cover;
-    width: 250px;
+    width: 145px;
 
 
+}
+.palm{
+    display: grid;
+    grid-template-rows: auto auto;
 }
 .bungalow{
     width: 230px;
@@ -572,6 +606,9 @@ input{
 }
 .ag{
     width: 110%;
+}
+.cl{
+    font-size: x-small;
 }
 
 }
